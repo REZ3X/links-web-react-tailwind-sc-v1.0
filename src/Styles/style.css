@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(128, 121, 126);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(128, 121, 126, 1) 0%,
+    rgba(122, 84, 113, 1) 60%,
+    rgba(163, 22, 96, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(128, 121, 126, 1) 0%,
+    rgba(122, 84, 113, 1) 60%,
+    rgba(163, 22, 96, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(128, 121, 126, 1) 0%,
+    rgba(122, 84, 113, 1) 60%,
+    rgba(163, 22, 96, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#80797e",endColorstr="#a31660",GradientType=1);
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown_list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #2f252c;
+  border-radius: 10px;
+  margin-bottom: -340px;
+  z-index: 999;
+  color: white;
+}
+
+.dropdown_list a:hover {
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.arrow {
+    margin-top: 6px;
+}
+
+.name-title {
+  font-size: 22.5px;
+}
+
+.social-media {
+  font-size: 25px;
+}
+
+.email-container {
+  font-size: 32px;
+}
+
+.instagram-container,
+.facebook-container,
+.email-container,
+.github-container,
+.linkedin-container {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.instagram-container a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.instagram-container a i {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.instagram-container a i:hover {
+  color: #c13584;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.facebook-container a i:hover {
+  color: #1877f2;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.email-container a i:hover {
+  color: #2c6e71;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.github-container a i:hover {
+  color: #827f7f;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.linkedin-container a i:hover {
+  color: #0a66c2;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.menu-item {
+  width: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .main-body {
+    padding-bottom: 120px;
+  }
+  .footer p {
+    font-size: 12.8px;
+  }
+}
